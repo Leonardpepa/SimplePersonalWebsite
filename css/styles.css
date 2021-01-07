@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  border-radius: 50%;
+}
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+h1,
+h2 {
+  color: #66bfbf;
+}
+p {
+  line-height: 2;
+  width: 50%;
+  font-weight: normal;
+  margin: 20px auto;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #b6cccc;
+  border-width: 5px;
+  width: 5%;
+  height: 0;
+  margin: 30px auto;
+}
+
+ul {
+  padding: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  outline: 0;
+  line-height: 2;
+}
+
+.poject-link:hover {
+  color: #000000;
+  font-size: 1.1rem;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-img,
+.project-img {
+  width: 25%;
+}
+
+.skill-img,
+.project-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 10rem;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.footer-link {
+  display: inline-block;
+  color: #11999e;
+  margin: 40px 1rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #eaf6ea;
+}
+
+.footer-p {
+  right: 50%;
+  bottom: 10px;
+  color: #eaf6ea;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #11999e;
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  padding: 5px;
+  margin: 30px auto 10px auto;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn:hover {
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 10px #000000;
+  transform: scale(1.01);
+  background-color: #49aaaa;
+}
